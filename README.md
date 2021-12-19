@@ -8,7 +8,7 @@ CLASS is part of a book (soon to be) published at Cambridge University Press: "A
 
 ### Obtaining the CLASS software
 
-CLASS can be downloaded as precompiled binaries for [Windows and OS X](https://github.com/classmodel/modelgui/releases). 
+CLASS can be downloaded as precompiled binaries for [Windows and OS X](https://github.com/classmodel/modelgui/releases).
 
 For information on compiling CLASS on Linux / OS X, see the notes below.
 
@@ -31,7 +31,7 @@ The source code of CLASS can be downloaded manually [from GitHub](https://github
 
     git clone https://github.com/classmodel/modelgui.git
 
-Both methods will always provide you the most recent (stable) version of CLASS. There are two ways of compiling CLASS: using [QtCreator](http://qt-project.org/downloads) or using the command line. 
+Both methods will always provide you the most recent (stable) version of CLASS. There are two ways of compiling CLASS: using [QtCreator](http://qt-project.org/downloads) or using the command line.
 
 #### QtCreator
 
@@ -42,6 +42,7 @@ After installing QtCreator, open the CLASS project file (mlmodel_main.pro) in Qt
 Without QtCreator installed, some additional packages are needed, e.g.
 * Ubuntu (10.04.2 LTS): g++ qt4-qmake libqt4-dev
 * OpenSUSE (11.4): libqt4-devel make
+* Debian (11.1): g++ qt5-qmake qtpositioning5-dev
 
 After installing the required packages, calling:
 
